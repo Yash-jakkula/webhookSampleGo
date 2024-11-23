@@ -12,7 +12,7 @@ var DB *sqlx.DB
 // Connect initializes the database connection
 func Connect() *sqlx.DB {
 	// Build the connection string
-	psqlInfo := "user=postgres.fhsvbficbllrmkfpqmut password=KnowV@tion24 host=aws-0-ap-south-1.pooler.supabase.com port=6543 dbname=postgres"
+	psqlInfo := ""
 
 	// Connect to the database
 	var err error
